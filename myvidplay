@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Site</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #111;
+            font-family: Arial, sans-serif;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        video {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            background: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="video-container">
+
+    <video controls playsinline preload="metadata">
+        <source src="VIDEO-1.mp4" type="video/mp4">
+    </video>
+
+    <video controls playsinline preload="metadata">
+        <source src="VIDEO-2.mp4" type="video/mp4">
+    </video>
+
+    <video controls playsinline preload="metadata">
+        <source src="VIDEO-3.mp4" type="video/mp4">
+    </video>
+
+</div>
+
+</body>
+</html>
